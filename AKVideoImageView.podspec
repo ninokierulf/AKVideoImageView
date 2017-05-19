@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.social_media_url      = "https://www.facebook.com/AleksandrKirichenko"
   s.platform              = :ios
   s.ios.deployment_target = "7.1"
+  s.tvos.deployment_target = "9.0"
   s.source        = { :git => "https://github.com/numen31337/AKVideoImageView.git", :tag => "#{s.version}" }
   s.source_files  = "Classes/*.{h,m}"
   s.frameworks = "UIKit", "AVFoundation"
